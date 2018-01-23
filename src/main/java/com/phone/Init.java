@@ -13,6 +13,20 @@ public class Init {
          tel2.call();
          tel2.message();
 
+        IPsp ip1=new Smartphone();
+        ip1.playGame();
+        IPsp ip2=new Psp();
+        ip2.playGame();
 
+        IPsp ip3 = new IPsp() {
+            @Override
+            public void playGame() {
+                System.out.println("匿名内部类实现接口的方式");
+            }
+        };
+        ip3.playGame();
+
+        IPsp ip4 =()-> System.out.println("匿名内部类！！！！！！！");
+        ip4.playGame();
     }
 }
