@@ -8,7 +8,7 @@ public class Animal {
     public String name;
 
     public void eat(){
-        System.out.println("我能吃！");
+        System.out.println("I can eat！");
     }
 
 
