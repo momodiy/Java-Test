@@ -52,6 +52,7 @@ public class BookManage {
         System.out.println("输入图书名称：");
         //获取输入的图书名称
         String name = console.next();
+        System.out.println(999);
         for (int i = 0; i < books.length; i++) {
             if (name.equals(books[i])) {
                 //输入的名称与某一图书名称匹配，返回该图书
